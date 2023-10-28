@@ -1,0 +1,321 @@
+.works-item{
+    overflow: hidden;
+  }
+  .works-item-layer{
+    background-color: #1110107e;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+  .works-item:hover .works-item-layer{
+    opacity: 1;
+  } 
+  .works-item-desc{
+    top: 100% ;
+    position: relative;
+    left: 0;
+    transition:top.5s;
+  }
+  .works-item:hover .works-item-desc{
+  top:0;
+  }
+  .img-item{
+  transition: all .2s;
+  }
+  .works-item:hover .img-item{
+  transform: scale(1.2);
+  }
+  .nav-pills .nav-link.active {
+    background-color: #e65f78  !important;
+    color: white;
+  border-radius: 30px;
+  
+  }
+  .ul-item .nav-item .nav-link{
+    color: #111010;
+    transition: all .5s;
+    margin-left: 5px;
+  }
+   .ul-item .nav-item .nav-link:hover {
+    background-color: #e65f78;
+    color: white;
+  border-radius: 30px;
+  } 
+
+  .navhome , i , #blog p span{
+    color: #e65f78 !important;
+  }
+  .home{
+background-image: url(../imgs/header-bg.jpg) ;
+background-size: cover;
+height: 100vh;
+ }
+ .home .homebg{
+   background-color: rgba(0, 0, 0, 0.8);}
+ .nav-icon{
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.nav-icon:hover {
+  color: #e65f78 !important;
+}
+.home-content h1 {
+  font-size: 52px;
+  padding: 15px 0;
+
+  position: relative;
+}
+.scroll-home {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+      animation: infinite scroll 2s;
+  transform: translateX(-50%);
+}
+.scroll-home::before {
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 25%;
+  width: 3px;
+  height: 8px;
+  background-color: white;
+  position: absolute;
+}
+@keyframes scroll{
+    0%{bottom: 10%;}
+    25%{bottom: 11%;}
+    50%{bottom: 12%;}
+   75%{bottom: 13%;}
+   100%{bottom: 10%;}
+}
+.home-content h1{
+  font-size: 52px;
+}
+ .home-content h1::before{
+    content: "I'M A Graphic Designer.";
+    color: white;
+    animation: typing 7s infinite 1s ;
+    -webkit-animation: typing 7s infinite 1s ;
+} 
+ @keyframes typing {
+  0% {
+      content: "I'M A Graphic Designer.";
+  }
+  2%{
+    content: "I'M A Graphic Designer";
+  }
+  4%{
+    content: "I'M A Graphic Designe";
+  }
+  6%{
+    content: "I'M A Graphic Design";
+  }
+  8%{
+   content: "I'M A Graphic Desig";
+  }
+  10%{
+    content: "I'M A Graphic Desi";
+  }
+  12%{
+    content: "I'M A Graphic Des";
+  }
+  14%{
+    content: "I'M A Graphic De";
+  }
+  16%{
+    content: "I'M A Graphic D";
+  }
+  18%{
+    content: "I'M A Graphic";
+  }
+  20%{
+    content: "I'M A Graphi";
+  }
+  22%{
+    content: "I'M A Graph";
+  }
+  24%{
+    content: "I'M A Grap";
+  }
+  26%{
+    content: "I'M A Gra";
+  }
+  28%{
+    content: "I'M A Gr";
+  }
+  30%{
+    content: "I'M A G";
+  }
+  32%{
+    content: "I'M A";
+  }
+  34%{
+    content: "I'M ";
+  }
+  36%  {
+    content: "I'";
+  }  
+  38%{
+    content: "I";
+  }
+  40%{
+    content: "";
+  }
+  42% {
+    content: "I'M A Graphic Designer.";
+}
+44%{
+  content: "I'M A Graphic Designer";
+}
+46%{
+  content: "I'M A Graphic Designe";
+}
+48%{
+  content: "I'M A Graphic Design";
+}
+50%{
+ content: "I'M A Graphic Desig";
+}
+52%{
+  content: "I'M A Graphic Desi";
+}
+54%{
+  content: "I'M A Graphic Des";
+}
+56%{
+  content: "I'M A Graphic De";
+}
+58%{
+  content: "I'M A Graphic D";
+}
+60%{
+  content: "I'M A Graphic";
+}
+62%{
+  content: "I'M A Graphi";
+}
+64%{
+  content: "I'M A Graph";
+}
+68%{
+  content: "I'M A Grap";
+}
+70%{
+  content: "I'M A Gra";
+}
+72%{
+  content: "I'M A Gr";
+}
+74%{
+  content: "I'M A G";
+}
+76%{
+  content: "I'M A";
+}
+78%{
+  content: "I'M ";
+}
+80%  {
+  content: "I'";
+}  
+82%{
+  content: "I";
+}
+84%{
+  content: "";
+}
+} 
+.home-content p {
+  color: rgba(243, 225, 225, 0.8);
+}
+.content button{
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.content button:hover{
+  background-color: white !important;
+  color: black !important;
+}
+.About p{
+  color: rgb(102, 107, 112) !important;
+  }
+  .About i{
+    color: #111010 !important;
+    border-color:rgb(173, 171, 169)!important;
+    transition:border .2s;
+    transition: color .5s;
+    
+    }
+  .About .icon:hover{
+  color: #e65f78 !important;
+  border-color:#e65f78 !important;
+  
+  }
+.services-head{
+  position: relative;
+}
+.services-head::after{
+content: "";
+width: 30px;
+height: 2px;
+background-color:#e65f78;
+bottom: 0px;
+left:50%;            
+position: absolute;
+transform: translateX(-50%);
+transition: all .5s;
+
+
+}
+.service-item:hover .services-head::after{
+
+width: 50px;
+}
+.client-item p{
+  color:gray ;
+  }
+  .carousel-indicators button{
+    background-color: #e65f78!important;
+    
+  }
+  #ourClient{
+    background-color: rgb(240, 240, 225);
+    padding: 50px;
+    margin-top: 30px;
+  }
+  .card-text p{
+    font-size: 20px;
+  }
+  .contact-button {
+    background-color: #e65f78;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: transparent;
+  }
+  .up  {
+    right: 2%;
+    bottom: 10%;
+    background-color: #e65f78;
+    width: 28px;
+    height: 40px;
+    
+}
+.up i{
+    font-size: 20px;
+}
+.setting {
+   top: 25%;
+    background-color: #e65f78;
+    width: 28px;
+    height: 40px;
+}
